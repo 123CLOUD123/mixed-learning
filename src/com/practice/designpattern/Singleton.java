@@ -1,4 +1,4 @@
-package com.cloud.designpattern;
+package com.practice.designpattern;
 
 
 /**

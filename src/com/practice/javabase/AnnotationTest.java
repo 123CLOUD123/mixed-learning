@@ -1,4 +1,4 @@
-package com.cloud.javabase;
+package com.practice.javabase;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

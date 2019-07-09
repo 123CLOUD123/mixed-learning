@@ -1,6 +1,6 @@
-package com.cloud.test;
+package com.practice.test;
 
-import com.cloud.designpattern.Singleton;
+import com.practice.designpattern.Singleton;
 
 public class Test {
 
