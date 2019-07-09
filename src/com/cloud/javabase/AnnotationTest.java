@@ -51,7 +51,13 @@ class FieldConstraintHandler {
 				int mod = field.getModifiers();
 				if (!Modifier.isPrivate(mod)) {
 					String fieldName = field.getName();
-					System.out.println("字段：" + fieldName + "(描述：" + fc.description() + ") 非私有。");
+					StringBuilder sb = new StringBuilder();
+					sb.append("字段：")
+					  .append(fieldName)
+					  .append("（描述：")
+					  .append(fc.description())
+					  .append("）非私有。");
+					System.out.println(sb.toString());
 				}
 			}
 		}
